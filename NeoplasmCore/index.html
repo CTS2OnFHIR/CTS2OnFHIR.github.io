@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>NCIt Neoplasm Core Terminology Files on FHIR</title>
+  </head>
+
+  <body>
+    <img src="images/fhir-logo-www.png" alt="logo fhir"/><h1>FHIR-based Representation of NCIt Neoplasm Core Terminology Files</h1>
+
+
+<p>The NCIt Neoplasm Core value set provides a core reference set of 
+NCIt neoplasm classification concepts that is designed to facilitate 
+consistent coding, analysis, and data sharing across a broad range of 
+NCI and related resources.  These files provide a comprehensive 
+collection of key terms, definitions, simplified hierarchies, mappings 
+to dozens of other terminologies, and molecular characteristics, all 
+linked back to online EVS resources; they are updated with each monthly 
+release of NCIt.
+
+</p><p><b>Background:</b> NCIt provides NCI's comprehensive cancer 
+classification terminology and ontology, and NCIm provides 
+cross-mappings to many related terminologies of interest to the NCI 
+community.  NCIt includes rigorous human and machine readable 
+definitions of many thousands of distinct types of neoplasm, organized 
+in logic based parent-child hierarchies.  NCIt is used in many NCI and 
+other systems around the world for cancer research, care, and reference,
+ and is useful in interpreting and translating information from many 
+other resources.  The need has long been felt for a smaller core 
+reference set of cancer classification terms that are most commonly used
+ for research, care, and public health purposes.
+
+</p><p><b>Organization:</b> This draft set includes 1,358 neoplasm 
+concepts (16%) out of the 8,399 currently in NCIt.   It is intended to 
+include all neoplasms frequently encountered in research and clinical 
+settings.  Beyond that, EVS estimates that this set includes 
+approximately 80% of infrequent and rare neoplasms encountered in such 
+settings, as well as 60% of the specific histopathologic variants of 
+malignant neoplasms.  Most of these concepts have tracked uses in coding
+ NCI's main clinical trial and metadata repositories.</p>
+
+<p>Set membership and structure, including hierarchy and mapping 
+relationships, will be adjusted and extended in response to user 
+feedback.  This set will be made available in multiple views.  It is an 
+integral subset of NCIt, so users can easily cross-walk to more detailed
+ classifications, ontology, terminology mappings, and links to key 
+cancer information resources.</p>
+
+<p>This third monthly release includes four components:</p>
+    
+<ol>
+  <li><b>Value Set</b>: 1,358 concepts, available from the
+    <a href="https://nciterms.nci.nih.gov/ncitbrowser/ajax?action=create_src_vs_tree&amp;vsd_uri=http://evs.nci.nih.gov/valueset/C126659">NCI Term Browser</a>,
+ LexEVS APIs, and the files on this FTP site.  An RDF/SPARQL endpoint is
+ also available internally, and is being prepared for public use.  The 
+files here are available in these forms:
+
+    <p></p><ul>
+      <li><a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.xlsx">Neoplasm_Core.xlsx</a> is an Excel spreadsheet.</li>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.xls">Neoplasm_Core.xls</a> is a larger, old-format Excel file.</li>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.csv">Neoplasm_Core.csv</a> is a simple text comma-separated values (CSV) file.</li>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.txt">Neoplasm_Core.txt</a> is a simple tab-delimited text file.</li>
+    </ul><p></p>
+    
+
+    <p>Both files have column headers on the first row:
+
+      </p><blockquote>
+	<table cellspacing="1" cellpadding="3" border="1">
+	  <tbody><tr valign="top" align="left">
+	    <th>Column</th>
+	    <th>Content Description</th>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Code</td>
+	    <td>The NCIt concept code, a unique identifier assigned to each concept by EVS to permanently track a specific meaning.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Preferred Term</td>
+	    <td>The term chosen by EVS as most unambiguous and widely used in the biomedical community.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Synonyms</td>
+	    <td>Additional term(s) chosen by NCI with meaning equivalent to the Preferred Term, separated by vertical bars ("|").</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Definition</td>
+	    <td>A text definition of the term created by EVS subject matter experts.</td>
+	  </tr>
+          <tr valign="top" align="left">
+	    <td>Neoplastic Status</td>
+	    <td>The morphologic, clinical, and genetic profile of a neoplastic 
+growth that defines it as non-cancerous, cancerous, or of uncertain 
+cancerous potential.</td>
+          </tr>
+	</tbody></table>
+      </blockquote>
+    <p></p>
+
+<p><img src="images/fhir-logo-www.png" alt="logo fhir"/><b>FHIR-based Representation</b> using the <a href="http://hl7.org/fhir/2016Sep/valueset.html">FHIR Valueset Resource</a>:
+
+      </p>
+
+   <p></p><ul>
+      <li><a href="https://raw.githubusercontent.com/CTS2OnFHIR/CTS2OnFHIR.github.io/master/NeoplasmCore/valueset/neoplasm-core-valueset.xml">neoplasm-core-valueset.xml</a> is a FHIR Valueset XML file representing all Neoplasm Core codes.</li>
+      <li> <a href="https://raw.githubusercontent.com/CTS2OnFHIR/CTS2OnFHIR.github.io/master/NeoplasmCore/valueset/neoplasm-core-malignant-valueset.xml">neoplasm-core-malignant-valueset.xml</a> is a FHIR Valueset XML file representing all Neoplasm Core codes with the neoplastic status of Malignant.</li>
+      <li> <a href="https://raw.githubusercontent.com/CTS2OnFHIR/CTS2OnFHIR.github.io/master/NeoplasmCore/valueset/neoplasm-core-benign-valueset.xml">neoplasm-core-benign-valueset.xml</a> is a FHIR Valueset XML file representing all Neoplasm Core codes with the neoplastic status of Benign.</li>
+      <li> <a href="https://raw.githubusercontent.com/CTS2OnFHIR/CTS2OnFHIR.github.io/master/NeoplasmCore/valueset/neoplasm-core-undetermined-valueset.xml">neoplasm-core-undetermined-valueset.xml</a> iis a FHIR Valueset XML file representing all Neoplasm Core codes with the neoplastic status of Undetermined.</li>
+    </ul><p></p>
+    
+
+  </li><li><b>Simplified Hierarchy</b>: The main draft hierarchy 
+organizes Neoplasm Core concepts in parent-child "is-a" relationships 
+under the main NCIt subcategories of <em>Neoplasm by Site</em> and <em>Neoplasm by Morphology</em>.
+  Only the relationships between Core concepts appear, in their most 
+specific placements, yielding a hierarchy much simpler than the full 
+NCIt hierarchy.  The hierarchy is available in two main forms, with two 
+"Plus" forms that add an NCIm CUI/link (HTML only) and Neoplastic Status
+ flag to each Core term:
+    
+    <p></p><ul>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Hierarchy.html">Neoplasm_Core_Hierarchy.html</a>
+ is an HTML hierarchy with nodes that can be expanded and collapsed, 
+either individually or globally.  Each term is linked to its concept 
+page on the NCIt browser.
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Hierarchy_Plus.html">Neoplasm_Core_Hierarchy_Plus.html</a>
+ As above, plus each term is also linked to its concept page on the NCIm
+ browser and shows the Neoplastic Status value (Malignant, Benign, 
+Undetermined).
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Hierarchy.txt">Neoplasm_Core_Hierarchy.txt</a> is the same hierarchy in a simple text format, with the NCIt Code in parentheses following the term.
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Hierarchy_Plus.txt">Neoplasm_Core_Hierarchy_Plus.txt</a> As above, plus each term  also shows the Neoplastic Status value (Malignant, Benign, Undetermined).
+    </li></ul><p></p>
+    
+    <p>NCIt users have asked that we also provide the earlier draft 
+hierarchy arrangement under Neoplastic Status headings of Malignant, 
+Benign, and Undetermined.  These updated files assign each Core 
+hierarchical group based on the status of the top parent concept, so the
+ Undetermined section includes many malignant and benign child concepts.
+  As with the main hierarchy files, there are html and text files that 
+follow the original format, and "Plus" forms that add an NCIm CUI/link 
+(HTML only) and Neoplastic Status flag to each Core term: 
+    
+    </p><p></p><ul>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Hierarchy_By_Neoplastic_Status.html">Neoplasm_Core_Hierarchy_By_Neoplastic_Status.html</a>
+ is an HTML hierarchy with nodes that can be expanded and collapsed, 
+either individually or globally.  Each term is linked to its concept 
+page on the NCIt browser.
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Hierarchy_By_Neoplastic_Status_Plus.html">Neoplasm_Core_Hierarchy_By_Neoplastic_Status_Plus.html</a>
+ As above, plus each term is also linked to its concept page on the NCIm
+ browser and shows the Neoplastic Status value (Malignant, Benign, 
+Undetermined).
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Hierarchy_By_Neoplastic_Status.txt">Neoplasm_Core_Hierarchy_By_Neoplastic_Status.txt</a> is the same hierarchy in a simple text format, with the NCIt Code in parentheses following the term.
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Hierarchy_By_Neoplastic_Status_Plus.txt">Neoplasm_Core_Hierarchy_By_Neoplastic_Status_Plus.txt</a> As above, plus each term  also shows the Neoplastic Status value (Malignant, Benign, Undetermined).
+    </li></ul><p></p>
+    
+<p>The original, manually curated draft hierarchy is available in the Archive directory, in two forms:</p>
+    
+    <p></p><ul>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Archive/Neoplasm_Core_Hierarchy_2016-05-02.html">Neoplasm_Core_Hierarchy_2016-05-02.html</a>
+ is an HTML hierarchy with nodes that can be expanded and collapsed.  
+Each term is linked to its concept page on the NCIt browser.
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Archive/Neoplasm_Core_Hierarchy_2016-05-02.txt">Neoplasm_Core_Hierarchy_2016-05-02.txt</a> is the same hierarchy in a simple text format, with the NCIt Code in parentheses following the term.
+    </li></ul><p></p>
+
+    <p>Several simplified hierarchies may well be needed; user input 
+will be important in deciding on the most useful organization and scope 
+for these.</p>
+
+    <p>Once there is a stable simplified reference hierarchy, EVS plans 
+to retire the old Common Neoplasm (Code C7077) header concept and 
+hierarchy, including these four child concepts: Common Carcinoma, Common
+ Connective and Soft Tissue Neoplasm, Common Germ Cell Tumor, and Common
+ Hematopoietic Neoplasm.  These were created in 2003 to help satisfy 
+such requests when no better solution was readily available, but 
+structured value sets provide a more appropriate representation.  Please
+ say if this transition may cause problems for your current use of NCIt.</p>
+
+ <p><img src="images/fhir-logo-www.png" alt="logo fhir"/><b>FHIR-based Representation</b> using the <a href="http://hl7.org/fhir/2016Sep/conceptmap.html">FHIR ConceptMap Resource</a>:
+
+      </p>
+
+<p></p><ul>
+      <li>TBD</li>
+    </ul><p></p>
+    
+
+  </li><li><b>Mappings</b>: Each NCIt Core concept is shown with its 
+NCIm code and term.  30% (411) do not have equivalent terms in other 
+terminologies, so the remaining cells are empty.  Where other sources in
+ NCIm do have equivalent terms, a separate row is created for each 
+unique term mapping.  The mappings tables are available in three forms:
+    
+    <p></p><ul>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Mappings_NCIm_Terms.xlsx">Neoplasm_Core_Mappings_NCIm_Terms.xlsx</a> is an Excel spreadsheet.
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Mappings_NCIm_Terms.xls">Neoplasm_Core_Mappings_NCIm_Terms.xls</a> is a much larger, old-format Excel spreadsheet.
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Mappings_NCIm_Terms.csv">Neoplasm_Core_Mappings_NCIm_Terms.csv</a> is a simple text comma-separated values (CSV) file.
+    </li></ul><p></p>
+    
+
+    <p>All three files have column headers on the first row, as listed below:
+
+      </p><blockquote>
+	<table cellspacing="1" cellpadding="3" border="1">
+	  <tbody><tr valign="top" align="left">
+	    <th>Column</th>
+	    <th>Content Description</th>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>NCIt Code</td>
+	    <td>The NCIt concept code, a unique identifier assigned to each concept by EVS to permanently track a specific meaning.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>NCIt Preferred Term</td>
+	    <td>The term chosen by EVS as most unambiguous and widely used in the biomedical community.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>NCIm CUI</td>
+	    <td>The NCI Metathesaurus unique identifier assigned to each concept by EVS; UMLS Metathesaurus CUIs are used where they exist.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>NCIm Preferred Name</td>
+	    <td>The concept name preferred within the Metathesaurus environment.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>NCIm Source</td>
+	    <td>The NCIm terminology source with a term that has the same 
+meaning.  NCIm short names for each source can be found on the NCIm 
+Browser at 
+	      <a href="https://ncim.nci.nih.gov/ncimbrowser/pages/source_help_info.jsf">https://ncim.nci.nih.gov/ncimbrowser/pages/source_help_info.jsf</a></td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Term Type</td>
+	    <td>The term type in that source.  NCIm source term types can be found on the NCIm Browser at 
+	      <a href="https://ncim.nci.nih.gov/ncimbrowser/pages/term_type_help_info.jsf">https://ncim.nci.nih.gov/ncimbrowser/pages/term_type_help_info.jsf</a></td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Source Code</td>
+	    <td>The code associated with this term in that source.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Source Term</td>
+	    <td>The term in that source.</td>
+	  </tr>
+	</tbody></table>
+      </blockquote>
+    <p></p>
+
+    <p>These term mappings are also available as simple lists, with 
+equivalent NCIm source terms in indented lists under each Core term.  
+This is available in two formats:</p>
+    <ul>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Mappings_NCIm_Terms.html">Neoplasm_Core_Mappings_NCIm_Terms.html</a> is an HTML list with nodes that can be expanded and collapsed, either individually or globally.
+	<ul>
+	  <li>Each Core term is linked to its NCIt concept page on the NCIt browser.
+	  </li><li>For EVS standalone sources, each source/code pair is linked to its page in the NCI Term Browser.
+	  </li><li>NCIm CUIs for each matched term are linked to the NCIm Browser concept page.
+	</li></ul>
+      </li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Mappings_NCIm_Terms.txt">Neoplasm_Core_Mappings_NCIm_Terms.txt</a> is the same listing in a simple text format.
+    </li></ul>
+    
+    <p>An earlier draft Mappings file provided a single row for each 
+Core concept, with a summary list of any NCIm sources with equivalent 
+terms.
+      It is available in the Archive directory:</p>
+    <ul>
+      <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Archive/Neoplasm_Core_Mappings_2016-05-05.xlsx">Neoplasm_Core_Mappings_2016-05-05.xlsx</a>
+    </li></ul>
+    <p>We will update this only if users express interest in that approach.</p>
+
+  <p><img src="images/fhir-logo-www.png" alt="logo fhir"/><b>FHIR-based Representation</b> using the <a href="http://hl7.org/fhir/2016Sep/conceptmap.html">FHIR ConceptMap Resource</a>:
+
+      </p>
+  <p></p><ul>
+      <li><a href="https://raw.githubusercontent.com/CTS2OnFHIR/CTS2OnFHIR.github.io/master/NeoplasmCore/conceptmap/neoplasm-core-conceptmap.xml">neoplasm-core-conceptmap.xml</a> is a FHIR ConceptMap XML file representing all Neoplasm Core mappings.</li>
+    </ul><p></p> 
+
+
+  </li><li><b>Molecular Relationships:</b> NCIt Neoplasm concepts are 
+characterized by well over 100,000 role relationships to other NCIt 
+concepts, which in turn have potentially revealing connections to many 
+others.  This initial draft relationship report provides a simple 
+listing for just 6 roles, with more than 4,900 assertions for Core 
+neoplasm concepts, that are most informative about the molecular 
+characteristics of neoplasms:
+    <ul>
+        <li>Disease_Has_Cytogenetic_Abnormality
+        </li><li>Disease_Has_Molecular_Abnormality
+        </li><li>Disease_May_Have_Cytogenetic_Abnormality
+        </li><li>Disease_May_Have_Molecular_Abnormality
+        </li><li>Disease_Mapped_To_Gene
+	</li><li>Disease_Pathogenesis_Involves_Gene
+    </li></ul>
+    These roles connect
+    <ol>
+      <li>Specific genes and fusion genes to specific histopathologic 
+types of neoplasms, when these genes and fusion genes are directly 
+involved in the pathogenesis of the specific neoplasms;
+      </li><li>Specific histopathologic types of neoplasms to the genes that are involved in their pathogenesis;
+      </li><li>Cytogenetic abnormalities to specific histopathologic 
+types of neoplasms, when these abnormalities define the specific 
+neoplasms; and
+      </li><li>Molecular abnormalities to specific histopathologic types of neoplasms, when these abnormalities define the specific neoplasms.
+    </li></ol>
+    
+    <p>The molecular relationship tables are available in three forms:</p>
+    
+    <ul>
+	<li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Rels_NCIt_Molecular.xlsx">Neoplasm_Core_Rels_NCIt_Molecular.xlsx</a> is an Excel spreadsheet.
+	</li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Rels_NCIt_Molecular.xls">Neoplasm_Core_Rels_NCIt_Molecular.xls</a> is a much larger, old-format Excel spreadsheet.
+	</li><li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core_Rels_NCIt_Molecular.csv">Neoplasm_Core_Rels_NCIt_Molecular.csv</a> is a simple text comma-separated values (CSV) file.
+    </li></ul>
+    
+    <p>All three files have column headers on the first row, as listed below:
+      
+      </p><blockquote>
+	<table cellspacing="1" cellpadding="3" border="1">
+	  <tbody><tr valign="top" align="left">
+	    <th>Column</th>
+	    <th>Content Description</th>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Code</td>
+	    <td>The NCIt concept code for the first concept in the relationship.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Preferred Term</td>
+	    <td>The NCIt preferred term for the first concept in the relationship.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Relationship</td>
+	    <td>The role relationship connecting the first concept to the second concept.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Code</td>
+	    <td>The NCIt concept code for the second concept in the relationship.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Preferred Term</td>
+	    <td>The NCIt preferred term for the second concept in the relationship.</td>
+	  </tr>
+	</tbody></table>
+      </blockquote>
+    <p></p>
+
+    <p>Future releases may extend the coverage of molecular 
+relationships, and may display relationship groupings that show, for 
+example, how a particular chromosomal translocation relates to the 
+corresponding fusion protein, and how these may both relate to 
+prognosis.  Feedback is invited on what information would be most 
+useful.</p>  
+
+</li></ol>
+
+<p><img src="images/fhir-logo-www.png" alt="logo fhir"/><b>FHIR-based Representation</b> using the <a href="http://hl7.org/fhir/2016Sep/conceptmap.html">FHIR ConceptMap Resource</a>:
+
+      </p>
+  <p></p><ul>
+      <li><a href="https://raw.githubusercontent.com/CTS2OnFHIR/CTS2OnFHIR.github.io/master/NeoplasmCore/conceptmap/neoplasm-core-conceptmap-molecular.xml">neoplasm-core-conceptmap-molecular.xml</a> is a FHIR ConceptMap XML file representing all Neoplasm Core molecular relationships.</li>
+    </ul><p></p> 
+
+  <dl>
+    <dt>All components of the NCIt Neoplasm Core release can be found in
+ this NCI EVS ftp site directory, which includes an Archive subdirectory
+ for date-labeled copies of all release files:
+      </dt><dd><a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/">http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/</a>
+      </dd><dd><a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Archive/">http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Archive/</a>
+  </dd></dl>
+  
+<p><b>Help requests</b> on these files should go to <a href="mailto:NCIThesaurus@mail.nih.gov">NCIThesaurus@mail.nih.gov</a>
+</p></body></html>

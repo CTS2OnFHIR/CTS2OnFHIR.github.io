@@ -1,16 +1,16 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="neoplasm-core-benign"/>
-   <url value="http://ncit.nci.nih.gov/core/ValueSet/neoplasm-core-benign"/>
+   <id value="neoplasm-core-undetermined"/>
+   <url value="http://ncit.nci.nih.gov/core/ValueSet/neoplasm-core-undetermined"/>
    <version value="ncit-neoplasm-core-2016-11"/>
-   <name value="neoplasm-core-benign"/>
+   <name value="neoplasm-core-undetermined"/>
    <status value="active"/>
    <experimental value="true"/>
    <publisher value="Mayo Clinic Standards and Interoperability Program"/>
    <contact>
       <name value="MCSI team"/>
    </contact>
-   <date value="2016-12-08T13:23:00-06:00"/>
-   <description value="This is a Neoplasm Core Benign value set."/>
+   <date value="2016-12-08T15:50:16-06:00"/>
+   <description value="This is a Neoplasm Core Undetermined value set."/>
    <compose>
       <include>
          <system value="http://ncit.nci.nih.gov"/>

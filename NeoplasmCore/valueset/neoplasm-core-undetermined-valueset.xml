@@ -9,7 +9,7 @@
    <contact>
       <name value="MCSI team"/>
    </contact>
-   <date value="2016-12-08T10:26:47-06:00"/>
+   <date value="2016-12-08T13:23:00-06:00"/>
    <description value="This is a Neoplasm Core Benign value set."/>
    <compose>
       <include>
@@ -6169,4 +6169,346 @@
          </concept>
          <concept>
             <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
-     
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C6454"/>
+            <display value="Thymoma Type A"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Medullary Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Spindle Cell Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="A thymic epithelial neoplasm characterized by the presence of spindle and/or oval neoplastic epithelial cells. Lymphocytic infiltration is minimal or absent. It may be associated with myasthenia gravis or pure red cell aplasia. The majority of cases occur in the anterior mediastinum as Masaoka stage I tumors. Approximately 20% of the cases occur as stage II or stage III tumors. Type A thymoma generally behaves as a benign tumor and the overall survival is reported to be 100% at 5 and 10 years."/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C6885"/>
+            <display value="Thymoma Type AB"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Mixed Type Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="A thymic epithelial neoplasm characterized by the presence of a lymphocyte-poor component similar to that seen in type A thymoma and a lymphocyte-rich component which contains neoplastic small polygonal epithelial cells. It may be associated with myasthenia gravis and pure red cell aplasia. The majority of cases occur in the anterior mediastinum as Masaoka stage I tumors. A minority of the cases occur as stage II or stage III tumors. The overall survival is reported to be 80-100% at 5 and 10 years."/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C7114"/>
+            <display value="Thymoma Type B"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Dendritic Cell Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Epithelioid Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Plump Cell Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="An epithelial neoplasm arising from the thymus.  It may be associated with myasthenia gravis, pure red cell aplasia, and hypogammaglobulinemia.  It includes thymoma type B1 which is a thymoma of low grade malignant potential, thymoma type B2 which is a thymoma of moderate malignancy, and thymoma type B3 which is also known as well differentiated thymic carcinoma."/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C6887"/>
+            <display value="Thymoma Type B1"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Lymphocyte-Predominant Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Lymphocyte-Rich Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Organoid Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Predominantly Cortical Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="A thymic epithelial neoplasm characterized by the presence of expanded areas which resemble the normal thymic cortex. The neoplastic epithelial cells are small and scant and there is a dense T-lymphocytic component present. Areas of medullary differentiation with or without Hassall's corpuscles are also present. It may be associated with myasthenia gravis, pure red cell aplasia, and hypogammaglobulinemia. It has a low grade malignant potential. The majority of cases occur in the anterior mediastinum as Masaoka stage I tumors. A minority of the cases occur as stage II tumors."/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C6888"/>
+            <display value="Thymoma Type B2"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Cortical Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Polygonal Cell Thymoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="A thymic epithelial neoplasm characterized by the presence of neoplastic large, polygonal epithelial cells with large vesicular nuclei and prominent nucleoli. The neoplastic cells are arranged around perivascular spaces and along septa. Immature T-lymphocytes are also present. It may be associated with myasthenia gravis, pure red cell aplasia, and hypogammaglobulinemia. It is a tumor of moderate malignancy. The majority of cases occur in the anterior mediastinum as Masaoka stage I, stage II, or stage III tumors. Metastatic, stage IV tumors occur less frequently."/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C4333"/>
+            <display value="Transitional Meningioma"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Mixed Meningioma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Transitional (Mixed) Meningioma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="A WHO grade I meningioma characterized by the coexistence of meningothelial cells and fibrous architectural patterns."/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C3422"/>
+            <display value="Trophoblastic Tumor"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Trophoblastic Neoplasm"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Trophoblastic Neoplasms"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="A gestational or non-gestational neoplasm composed of neoplastic trophoblastic cells. Representative examples include hydatidiform mole and choriocarcinoma."/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C7533"/>
+            <display value="Visual Pathway Astrocytoma"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Optic Tract Astrocytoma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="An astrocytoma that affects the optic tract. This condition can be seen in association with neurofibromatosis 1. It is most commonly seen in the pediatric age group."/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+               <valueString value="Undetermined"/>
+            </extension>
+            <code value="C8567"/>
+            <display value="Visual Pathway Glioma"/>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Glioma of Optic Tract"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Glioma of Visual Pathway"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Glioma of the Optic Tract"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Glioma of the Visual Pathway"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000013009"/>
+                  <display value="Synonym"/>
+               </use>
+               <value value="Optic Tract Glioma"/>
+            </designation>
+            <designation>
+               <language value="en"/>
+               <use>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="900000000000550004"/>
+                  <display value="Definition"/>
+               </use>
+               <value value="A glioma that affects the optic tract. This condition can be seen in association with neurofibromatosis 1. It is most commonly seen in the pediatric age group."/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

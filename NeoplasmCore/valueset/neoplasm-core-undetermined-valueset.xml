@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="neoplasm-core-benign"/>
-   <url value="http://ncit.org/core/ValueSet/neoplasm-core-benign"/>
+   <url value="http://ncit.nci.nih.gov/core/ValueSet/neoplasm-core-benign"/>
    <version value="ncit-neoplasm-core-2016-11"/>
    <name value="neoplasm-core-benign"/>
    <status value="active"/>
@@ -9,13 +9,13 @@
    <contact>
       <name value="MCSI team"/>
    </contact>
-   <date value="2016-12-07T12:05:12-06:00"/>
+   <date value="2016-12-08T10:26:47-06:00"/>
    <description value="This is a Neoplasm Core Benign value set."/>
    <compose>
       <include>
          <system value="http://ncit.nci.nih.gov"/>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3148"/>
@@ -49,7 +49,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3326"/>
@@ -155,7 +155,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C66796"/>
@@ -171,7 +171,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7643"/>
@@ -196,7 +196,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4332"/>
@@ -212,7 +212,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4324"/>
@@ -228,7 +228,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6958"/>
@@ -262,7 +262,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C60781"/>
@@ -287,7 +287,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6505"/>
@@ -348,7 +348,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4723"/>
@@ -373,7 +373,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5316"/>
@@ -443,7 +443,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7503"/>
@@ -468,7 +468,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C8374"/>
@@ -484,7 +484,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C2907"/>
@@ -563,7 +563,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7575"/>
@@ -669,7 +669,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C2915"/>
@@ -703,7 +703,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4713"/>
@@ -719,7 +719,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7007"/>
@@ -780,7 +780,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C9293"/>
@@ -886,7 +886,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129526"/>
@@ -911,7 +911,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129530"/>
@@ -945,7 +945,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129528"/>
@@ -970,7 +970,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3791"/>
@@ -995,7 +995,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5146"/>
@@ -1065,7 +1065,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6905"/>
@@ -1099,7 +1099,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6908"/>
@@ -1124,7 +1124,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4714"/>
@@ -1140,7 +1140,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4722"/>
@@ -1165,7 +1165,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3864"/>
@@ -1208,7 +1208,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C128171"/>
@@ -1224,7 +1224,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C96479"/>
@@ -1267,7 +1267,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3495"/>
@@ -1310,7 +1310,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5673"/>
@@ -1380,7 +1380,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5685"/>
@@ -1405,7 +1405,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5676"/>
@@ -1448,7 +1448,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C45475"/>
@@ -1464,7 +1464,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C121963"/>
@@ -1480,7 +1480,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4683"/>
@@ -1505,7 +1505,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C9182"/>
@@ -1566,7 +1566,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C9476"/>
@@ -1591,7 +1591,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4738"/>
@@ -1616,7 +1616,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7173"/>
@@ -1677,7 +1677,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129271"/>
@@ -1693,7 +1693,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129277"/>
@@ -1718,7 +1718,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129325"/>
@@ -1734,7 +1734,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C36207"/>
@@ -1768,7 +1768,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7709"/>
@@ -1901,7 +1901,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C81772"/>
@@ -1926,7 +1926,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C9505"/>
@@ -1960,7 +1960,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C8419"/>
@@ -2003,7 +2003,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3694"/>
@@ -2073,7 +2073,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7386"/>
@@ -2089,7 +2089,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3016"/>
@@ -2123,7 +2123,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6770"/>
@@ -2148,7 +2148,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3017"/>
@@ -2191,7 +2191,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7642"/>
@@ -2216,7 +2216,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3918"/>
@@ -2295,7 +2295,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C92555"/>
@@ -2320,7 +2320,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4322"/>
@@ -2336,7 +2336,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4330"/>
@@ -2361,7 +2361,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6934"/>
@@ -2386,7 +2386,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3788"/>
@@ -2411,7 +2411,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3868"/>
@@ -2436,7 +2436,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4321"/>
@@ -2461,7 +2461,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129272"/>
@@ -2477,7 +2477,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3708"/>
@@ -2538,7 +2538,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4699"/>
@@ -2572,7 +2572,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4700"/>
@@ -2588,7 +2588,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3055"/>
@@ -2604,7 +2604,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C49107"/>
@@ -2629,7 +2629,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5419"/>
@@ -2645,7 +2645,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3059"/>
@@ -2742,7 +2742,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C92550"/>
@@ -2758,7 +2758,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3060"/>
@@ -2783,7 +2783,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3754"/>
@@ -2799,7 +2799,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C38936"/>
@@ -2833,7 +2833,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C38937"/>
@@ -2867,7 +2867,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3474"/>
@@ -2937,7 +2937,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6920"/>
@@ -2953,7 +2953,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3801"/>
@@ -2996,7 +2996,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3084"/>
@@ -3021,7 +3021,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C9294"/>
@@ -3055,7 +3055,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C81767"/>
@@ -3080,7 +3080,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6481"/>
@@ -3123,7 +3123,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C27510"/>
@@ -3139,7 +3139,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3146"/>
@@ -3155,7 +3155,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3107"/>
@@ -3198,7 +3198,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C116342"/>
@@ -3241,7 +3241,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4720"/>
@@ -3257,7 +3257,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4660"/>
@@ -3273,7 +3273,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3230"/>
@@ -3298,7 +3298,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3234"/>
@@ -3314,7 +3314,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6907"/>
@@ -3330,7 +3330,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4721"/>
@@ -3346,7 +3346,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C8271"/>
@@ -3362,7 +3362,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C8272"/>
@@ -3378,7 +3378,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5241"/>
@@ -3421,7 +3421,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3903"/>
@@ -3473,7 +3473,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3765"/>
@@ -3507,7 +3507,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3247"/>
@@ -3595,7 +3595,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6867"/>
@@ -3647,7 +3647,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C8648"/>
@@ -3690,7 +3690,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3697"/>
@@ -3715,7 +3715,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7232"/>
@@ -3767,7 +3767,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3809"/>
@@ -3783,7 +3783,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4050"/>
@@ -3853,7 +3853,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6960"/>
@@ -3878,7 +3878,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3288"/>
@@ -3939,7 +3939,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129318"/>
@@ -3955,7 +3955,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C129319"/>
@@ -3980,7 +3980,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3738"/>
@@ -4005,7 +4005,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3873"/>
@@ -4066,7 +4066,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C28396"/>
@@ -4109,7 +4109,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C9069"/>
@@ -4143,7 +4143,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3062"/>
@@ -4249,7 +4249,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3140"/>
@@ -4355,7 +4355,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C27720"/>
@@ -4407,7 +4407,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C95584"/>
@@ -4432,7 +4432,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C27454"/>
@@ -4493,7 +4493,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4319"/>
@@ -4509,7 +4509,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C92554"/>
@@ -4534,7 +4534,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7526"/>
@@ -4577,7 +4577,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C92624"/>
@@ -4593,7 +4593,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3308"/>
@@ -4690,7 +4690,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C39963"/>
@@ -4706,7 +4706,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6536"/>
@@ -4749,7 +4749,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C2977"/>
@@ -4783,7 +4783,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4047"/>
@@ -4835,7 +4835,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C40315"/>
@@ -4851,7 +4851,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6965"/>
@@ -4966,7 +4966,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6967"/>
@@ -4991,7 +4991,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4323"/>
@@ -5025,7 +5025,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C45476"/>
@@ -5041,7 +5041,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C8587"/>
@@ -5057,7 +5057,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7574"/>
@@ -5136,7 +5136,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4320"/>
@@ -5152,7 +5152,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4331"/>
@@ -5168,7 +5168,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C82595"/>
@@ -5184,7 +5184,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7167"/>
@@ -5218,7 +5218,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7168"/>
@@ -5252,7 +5252,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5546"/>
@@ -5286,7 +5286,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C5621"/>
@@ -5329,7 +5329,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C96480"/>
@@ -5363,7 +5363,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4919"/>
@@ -5397,7 +5397,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C2872"/>
@@ -5431,7 +5431,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7506"/>
@@ -5465,7 +5465,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4036"/>
@@ -5499,7 +5499,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C82596"/>
@@ -5515,7 +5515,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C8574"/>
@@ -5540,7 +5540,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C27726"/>
@@ -5565,7 +5565,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C82591"/>
@@ -5581,7 +5581,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C82593"/>
@@ -5597,7 +5597,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C82594"/>
@@ -5613,7 +5613,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C27511"/>
@@ -5638,7 +5638,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C39783"/>
@@ -5663,7 +5663,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C67559"/>
@@ -5679,7 +5679,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C4718"/>
@@ -5695,7 +5695,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C7634"/>
@@ -5720,7 +5720,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3381"/>
@@ -5781,7 +5781,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3696"/>
@@ -5824,7 +5824,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3795"/>
@@ -5885,7 +5885,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6814"/>
@@ -5901,7 +5901,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C6903"/>
@@ -5926,7 +5926,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3402"/>
@@ -6032,7 +6032,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3403"/>
@@ -6048,7 +6048,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C8591"/>
@@ -6118,7 +6118,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C27722"/>
@@ -6152,7 +6152,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Undetermined"/>
             </extension>
             <code value="C3411"/>
@@ -6168,34 +6168,5 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
-               <valueString value="Undetermined"/>
-            </extension>
-            <code value="C6454"/>
-            <display value="Thymoma Type A"/>
-            <designation>
-               <language value="en"/>
-               <use>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="900000000000013009"/>
-                  <display value="Synonym"/>
-               </use>
-               <value value="Medullary Thymoma"/>
-            </designation>
-            <designation>
-               <language value="en"/>
-               <use>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="900000000000013009"/>
-                  <display value="Synonym"/>
-               </use>
-               <value value="Spindle Cell Thymoma"/>
-            </designation>
-            <designation>
-               <language value="en"/>
-               <use>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="900000000000550004"/>
-                  <display value="Definition"/>
-               </use>
-               <value value="A thymic epithelial neoplasm characterized by the presence of spindle and/or oval neoplastic epithelial cells. Lymphocytic infiltration is minimal or absent. It may be associated with myasthenia gravis or pure red cell aplasia. 
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
+     

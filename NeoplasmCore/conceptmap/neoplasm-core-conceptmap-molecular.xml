@@ -1,7 +1,7 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
-   <sourceUri value="http://ncit.org/core/ValueSet/neoplasm-core"/>
-   <targetUri value="http://ncit.org/core/ValueSet/neoplasm-core-molecular"/>
-   <url value="http://ncit.org/core/ConceptMap/neoplasm-core-molecular"/>
+   <sourceUri value="http://ncit.nci.nih.gov/core/ValueSet/neoplasm-core"/>
+   <targetUri value="http://ncit.nci.nih.gov/core/ValueSet/neoplasm-core-molecular"/>
+   <url value="http://ncit.nci.nih.gov/core/ConceptMap/neoplasm-core-molecular"/>
    <version value="ncit-neoplasm-core-2016-11"/>
    <name value="neoplasm-core-molecular"/>
    <status value="active"/>
@@ -10,7 +10,7 @@
    <contact>
       <name value="MCSI team"/>
    </contact>
-   <date value="2016-12-07T16:29:50-06:00"/>
+   <date value="2016-12-08T10:26:51-06:00"/>
    <description value="This is an Neoplasm Core concept map for molecular relationships."/>
    <group>
       <source value="http://ncit.nci.nih.gov"/>
@@ -54657,4 +54657,235 @@
                <system value="http://ncit.nci.nih.gov"/>
                <code value="C36558"/>
             </dependsOn>
-        
+         </target>
+         <target>
+            <code value="C36465"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome 15"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36465"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36466"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome 17"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36466"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36456"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome 19"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36456"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36553"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome 1q21-31"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36553"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36559"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome 20"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36559"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36457"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome 22"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36457"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36539"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome X"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36539"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Well Differentiated Liposarcoma"/>
+         </extension>
+         <code value="C4250"/>
+         <target>
+            <code value="C18345"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="MDM2 Gene"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_Mapped_To_Gene"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C18345"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36441"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome 12q"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36441"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36482"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Gain of Chromosome 1q"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36482"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C36385"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Giant Rod Chromosome"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C36385"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C3360"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="Supernumerary Circular Chromosome"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Cytogenetic_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C3360"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C18345"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="MDM2 Gene"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_Pathogenesis_Involves_Gene"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C18345"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C67099"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="MDM2 SNP309 Allele"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_Pathogenesis_Involves_Gene"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C67099"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C51283"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="MDM2 wt Allele"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_Pathogenesis_Involves_Gene"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C51283"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Well Differentiated Prostate Adenocarcinoma"/>
+         </extension>
+         <code value="C27905"/>
+         <target>
+            <code value="C79904"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="TMPRSS2/ERG Fusion Gene"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_Mapped_To_Gene"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C79904"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C82366"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="ERG Gene Rearrangement"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Molecular_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C82366"/>
+            </dependsOn>
+         </target>
+         <target>
+            <code value="C82365"/>
+            <equivalence value="disjoint"/>
+            <dependsOn>
+               <extension url="http://ncit.nci.nih.gov/concept/display">
+                  <valueString value="TMPRSS2-ERG Fusion Protein Expression"/>
+               </extension>
+               <property value="http://ncit.nci.nih.gov/relationship/Disease_May_Have_Molecular_Abnormality"/>
+               <system value="http://ncit.nci.nih.gov"/>
+               <code value="C82365"/>
+            </dependsOn>
+         </target>
+      </element>
+   </group>
+</ConceptMap>

@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="neoplasm-core-benign"/>
-   <url value="http://ncit.org/core/ValueSet/neoplasm-core-benign"/>
+   <url value="http://ncit.nci.nih.gov/core/ValueSet/neoplasm-core-benign"/>
    <version value="ncit-neoplasm-core-2016-11"/>
    <name value="neoplasm-core-benign"/>
    <status value="active"/>
@@ -9,13 +9,13 @@
    <contact>
       <name value="MCSI team"/>
    </contact>
-   <date value="2016-12-07T12:05:11-06:00"/>
+   <date value="2016-12-08T10:26:47-06:00"/>
    <description value="This is a Neoplasm Core Benign value set."/>
    <compose>
       <include>
          <system value="http://ncit.nci.nih.gov"/>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7419"/>
@@ -31,7 +31,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C45929"/>
@@ -56,7 +56,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27018"/>
@@ -72,7 +72,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7462"/>
@@ -340,7 +340,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3762"/>
@@ -437,7 +437,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3726"/>
@@ -453,7 +453,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C9003"/>
@@ -577,7 +577,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4140"/>
@@ -611,7 +611,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6657"/>
@@ -645,7 +645,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3799"/>
@@ -688,7 +688,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3747"/>
@@ -722,7 +722,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C43342"/>
@@ -747,7 +747,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C43550"/>
@@ -763,7 +763,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4226"/>
@@ -779,7 +779,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C48305"/>
@@ -795,7 +795,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5196"/>
@@ -856,7 +856,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6751"/>
@@ -881,7 +881,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3739"/>
@@ -906,7 +906,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C53998"/>
@@ -922,7 +922,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6449"/>
@@ -983,7 +983,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6748"/>
@@ -1008,7 +1008,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3252"/>
@@ -1051,7 +1051,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C66807"/>
@@ -1067,7 +1067,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7571"/>
@@ -1146,7 +1146,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C121901"/>
@@ -1171,7 +1171,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4516"/>
@@ -1286,7 +1286,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4274"/>
@@ -1320,7 +1320,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5532"/>
@@ -1381,7 +1381,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C2942"/>
@@ -1433,7 +1433,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3803"/>
@@ -1476,7 +1476,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C40382"/>
@@ -1492,7 +1492,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C40383"/>
@@ -1508,7 +1508,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5194"/>
@@ -1560,7 +1560,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C40384"/>
@@ -1585,7 +1585,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3744"/>
@@ -1628,7 +1628,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4273"/>
@@ -1680,7 +1680,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4271"/>
@@ -1732,7 +1732,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4276"/>
@@ -1793,7 +1793,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4272"/>
@@ -1845,7 +1845,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C40408"/>
@@ -1870,7 +1870,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C62210"/>
@@ -1886,7 +1886,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7457"/>
@@ -1911,7 +1911,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6739"/>
@@ -1954,7 +1954,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3086"/>
@@ -1988,7 +1988,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C53316"/>
@@ -2004,7 +2004,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6892"/>
@@ -2020,7 +2020,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6856"/>
@@ -2081,7 +2081,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C2945"/>
@@ -2097,7 +2097,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C53459"/>
@@ -2113,7 +2113,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C96464"/>
@@ -2174,7 +2174,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C43577"/>
@@ -2217,7 +2217,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7041"/>
@@ -2233,7 +2233,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5496"/>
@@ -2276,7 +2276,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27458"/>
@@ -2292,7 +2292,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27457"/>
@@ -2308,7 +2308,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C83176"/>
@@ -2387,7 +2387,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5674"/>
@@ -2457,7 +2457,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27456"/>
@@ -2473,7 +2473,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5675"/>
@@ -2516,7 +2516,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3901"/>
@@ -2550,7 +2550,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3841"/>
@@ -2575,7 +2575,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6801"/>
@@ -2663,7 +2663,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27094"/>
@@ -2706,7 +2706,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6492"/>
@@ -2731,7 +2731,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6555"/>
@@ -2756,7 +2756,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6484"/>
@@ -2799,7 +2799,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4497"/>
@@ -2815,7 +2815,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7565"/>
@@ -2840,7 +2840,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3007"/>
@@ -2865,7 +2865,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C34584"/>
@@ -2881,7 +2881,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C49166"/>
@@ -2897,7 +2897,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C65193"/>
@@ -2913,7 +2913,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C121152"/>
@@ -2929,7 +2929,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C8388"/>
@@ -3053,7 +3053,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7720"/>
@@ -3087,7 +3087,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3049"/>
@@ -3112,7 +3112,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7699"/>
@@ -3146,7 +3146,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C45915"/>
@@ -3180,7 +3180,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7461"/>
@@ -3322,7 +3322,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7602"/>
@@ -3338,7 +3338,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3085"/>
@@ -3381,7 +3381,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3758"/>
@@ -3424,7 +3424,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7563"/>
@@ -3458,7 +3458,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3760"/>
@@ -3483,7 +3483,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C121686"/>
@@ -3553,7 +3553,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3804"/>
@@ -3578,7 +3578,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4231"/>
@@ -3675,7 +3675,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4526"/>
@@ -3736,7 +3736,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4542"/>
@@ -3797,7 +3797,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C9473"/>
@@ -3822,7 +3822,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3157"/>
@@ -3856,7 +3856,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C121153"/>
@@ -3872,7 +3872,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27483"/>
@@ -3915,7 +3915,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3192"/>
@@ -3931,7 +3931,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3193"/>
@@ -3974,7 +3974,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C45604"/>
@@ -3990,7 +3990,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5664"/>
@@ -4042,7 +4042,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3494"/>
@@ -4112,7 +4112,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C45603"/>
@@ -4128,7 +4128,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C8965"/>
@@ -4144,7 +4144,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C45928"/>
@@ -4169,7 +4169,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C9015"/>
@@ -4194,7 +4194,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C45927"/>
@@ -4228,7 +4228,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4474"/>
@@ -4289,7 +4289,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3272"/>
@@ -4323,7 +4323,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7018"/>
@@ -4348,7 +4348,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4192"/>
@@ -4400,7 +4400,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4348"/>
@@ -4569,7 +4569,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C45924"/>
@@ -4612,7 +4612,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6242"/>
@@ -4664,7 +4664,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3294"/>
@@ -4698,7 +4698,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3297"/>
@@ -4714,7 +4714,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3296"/>
@@ -4730,7 +4730,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4512"/>
@@ -4791,7 +4791,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4511"/>
@@ -4852,7 +4852,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C95546"/>
@@ -4868,7 +4868,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4374"/>
@@ -4902,7 +4902,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C95471"/>
@@ -4918,7 +4918,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5712"/>
@@ -4961,7 +4961,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7440"/>
@@ -4977,7 +4977,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3916"/>
@@ -5038,7 +5038,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6847"/>
@@ -5099,7 +5099,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4650"/>
@@ -5187,7 +5187,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C66865"/>
@@ -5230,7 +5230,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4973"/>
@@ -5246,7 +5246,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4302"/>
@@ -5271,7 +5271,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C7368"/>
@@ -5323,7 +5323,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C6966"/>
@@ -5357,7 +5357,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3329"/>
@@ -5418,7 +5418,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C43542"/>
@@ -5434,7 +5434,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C43541"/>
@@ -5450,7 +5450,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C8602"/>
@@ -5466,7 +5466,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C45916"/>
@@ -5509,7 +5509,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27273"/>
@@ -5534,7 +5534,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3342"/>
@@ -5748,7 +5748,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4795"/>
@@ -5782,7 +5782,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C96465"/>
@@ -5843,7 +5843,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C96463"/>
@@ -5886,7 +5886,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C96477"/>
@@ -5902,7 +5902,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C5620"/>
@@ -5963,7 +5963,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C66812"/>
@@ -5979,7 +5979,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3358"/>
@@ -5995,7 +5995,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3686"/>
@@ -6011,7 +6011,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C40409"/>
@@ -6063,7 +6063,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3269"/>
@@ -6124,7 +6124,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4174"/>
@@ -6176,7 +6176,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4905"/>
@@ -6237,7 +6237,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27509"/>
@@ -6262,7 +6262,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4614"/>
@@ -6305,7 +6305,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C121681"/>
@@ -6330,7 +6330,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4170"/>
@@ -6364,7 +6364,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27007"/>
@@ -6407,7 +6407,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3712"/>
@@ -6459,7 +6459,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3761"/>
@@ -6484,7 +6484,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C3502"/>
@@ -6608,7 +6608,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C27132"/>
@@ -6660,7 +6660,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C4113"/>
@@ -6685,7 +6685,7 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://ncit.org/core/concept/neoplasticStatus">
+            <extension url="http://ncit.nci.nih.gov/core/concept/neoplasticStatus">
                <valueString value="Benign"/>
             </extension>
             <code value="C8011"/>
@@ -6928,34 +6928,4 @@
                <language value="en"/>
                <use>
                   <system value="http://snomed.info/sct"/>
-                  <code value="900000000000013009"/>
-                  <display value="Synonym"/>
-               </use>
-               <value value="Thyrotrophic Adenoma"/>
-            </designation>
-            <designation>
-               <language value="en"/>
-               <use>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="900000000000013009"/>
-                  <display value="Synonym"/>
-               </use>
-               <value value="Thyrotropin Producing Pituitary Gland Adenoma"/>
-            </designation>
-            <designation>
-               <language value="en"/>
-               <use>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="900000000000013009"/>
-                  <display value="Synonym"/>
-               </use>
-               <value value="Thyrotropinoma"/>
-            </designation>
-            <designation>
-               <language value="en"/>
-               <use>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="900000000000550004"/>
-                  <display value="Definition"/>
-               </use>
-               <value value="A rare adenoma of the anterior lobe of the pituitary gland that produces thyrotr
+           

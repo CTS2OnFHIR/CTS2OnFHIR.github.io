@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="neoplasm-core"/>
-   <url value="http://ncit.nci.nih.gov/core/ValueSet/neoplasm-core"/>
+   <url value="http://hl7.org/fhir/ValueSet/neoplasm-core"/>
    <version value="ncit-neoplasm-core-2016-11"/>
    <name value="neoplasm-core"/>
    <status value="active"/>
@@ -9,7 +9,7 @@
    <contact>
       <name value="MCSI team"/>
    </contact>
-   <date value="2016-12-08T10:26:44-06:00"/>
+   <date value="2016-12-08T22:26:49-06:00"/>
    <description value="This is a Neoplasm Core value set."/>
    <compose>
       <include>

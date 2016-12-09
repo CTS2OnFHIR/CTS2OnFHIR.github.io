@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="neoplasm-core-benign"/>
-   <url value="http://ncit.nci.nih.gov/core/ValueSet/neoplasm-core-benign"/>
+   <url value="http://hl7.org/fhir/ValueSet/neoplasm-core-benign"/>
    <version value="ncit-neoplasm-core-2016-11"/>
    <name value="neoplasm-core-benign"/>
    <status value="active"/>
@@ -9,7 +9,7 @@
    <contact>
       <name value="MCSI team"/>
    </contact>
-   <date value="2016-12-08T10:26:47-06:00"/>
+   <date value="2016-12-08T22:26:52-06:00"/>
    <description value="This is a Neoplasm Core Benign value set."/>
    <compose>
       <include>
@@ -6928,4 +6928,4 @@
                <language value="en"/>
                <use>
                   <system value="http://snomed.info/sct"/>
-           
+                  <c

@@ -1,0 +1,48 @@
+drug_id	Preferred Term	concept_id	concept_name	vocabulary_id	standard_concept	concept_code
+C1097	Exemestane	19077218	exemestane 25 MG Oral Tablet	RxNorm	S	310261
+C1156	Megestrol_Acetate	40164968	Megestrol Acetate 40 MG Oral Tablet	RxNorm	S	860221
+C1256	Toremifene	1342346	Toremifene	RxNorm	S	38409
+C1326	Doxorubicin_Hydrochloride	1338512	Doxorubicin	RxNorm	S	3639
+C1345	Pamidronate_Disodium	46274952	pamidronic acid	RxNorm	null	1546406
+C1379	Fulvestrant	1304044	fulvestrant	RxNorm	S	282357
+C1411	Paclitaxel	1378382	Paclitaxel	RxNorm	S	56946
+C1417	Goserelin_Acetate	1366310	Goserelin	RxNorm	S	50610
+C1526	Docetaxel	1315942	docetaxel	RxNorm	S	72962
+C1527	Letrozole	1315946	letrozole	RxNorm	S	72965
+C1607	Anastrozole	1348265	anastrozole	RxNorm	S	84857
+C1647	Trastuzumab	1387104	trastuzumab	RxNorm	S	224905
+C1762	Raloxifene_Hydrochloride	1513103	Raloxifene	RxNorm	S	72143
+C1794	Capecitabine	1337620	capecitabine	RxNorm	S	194000
+C26644	E7389	46274212	eribulin mesylate	RxNorm	null	1045452
+C2688	ABI-007	19080348	Abraxane	RxNorm	null	589511
+C37452	Ixabepilone	19025348	ixabepilone	RxNorm	S	337523
+C38692	Pertuzumab	42801287	pertuzumab	RxNorm	S	1298944
+C405	Cyclophosphamide	1310317	Cyclophosphamide	RxNorm	S	3002
+C474	Epirubicin	1344354	Epirubicin	RxNorm	S	3995
+C48387	Everolimus	19011440	everolimus	RxNorm	S	141704
+C49176	PD-0332991	45892075	palbociclib	RxNorm	S	1601374
+C505	Fluorouracil	42628972	Fluorouracil Injection	RxNorm	S	1791700
+C63415	AC_Regimen	1338512	Doxorubicin	RxNorm	S	3639
+C63415	AC_Regimen	1310317	Cyclophosphamide	RxNorm	S	3002
+C63427	AC-T_Regimen	1338512	Doxorubicin	RxNorm	S	3639
+C63427	AC-T_Regimen	1310317	Cyclophosphamide	RxNorm	S	3002
+C63427	AC-T_Regimen	1378382	Paclitaxel	RxNorm	S	56946
+C63435	TAC_Regimen	1310317	Cyclophosphamide	RxNorm	S	3002
+C63435	TAC_Regimen	1315942	docetaxel	RxNorm	S	72962
+C63435	TAC_Regimen	1338512	Doxorubicin	RxNorm	S	3639
+C642	Methotrexate	19007332	Methotrexate 2.5 MG Oral Tablet	RxNorm	S	105585
+C66878	Lapatinib_Ditosylate	19112653	lapatinib ditosylate	RxNorm	null	481474
+C82492	Trastuzumab-MCC-DM1_Conjugate	43525787	ado-trastuzumab emtansine	RxNorm	S	1371041
+C855	Tamoxifen	1436683	Tamoxifen 20 MG Oral Tablet	RxNorm	S	313195
+C875	Thiotepa	19137385	Thiotepa	RxNorm	S	10473
+C931	Vinblastine_Sulfate	19008264	Vinblastine Sulfate	RxNorm	S	11198
+C9533	Cyclophosphamide_Doxorubicin_Fluorouracil	1338512	Doxorubicin	RxNorm	S	3639
+C9533	Cyclophosphamide_Doxorubicin_Fluorouracil	1310317	Cyclophosphamide	RxNorm	S	3002
+C9533	Cyclophosphamide_Doxorubicin_Fluorouracil	955632	Fluorouracil	RxNorm	S	4492
+C9595	Cyclophosphamide_Epirubicin_Fluorouracil	955632	Fluorouracil	RxNorm	S	4492
+C9595	Cyclophosphamide_Epirubicin_Fluorouracil	1310317	Cyclophosphamide	RxNorm	S	3002
+C9595	Cyclophosphamide_Epirubicin_Fluorouracil	1344354	Epirubicin	RxNorm	S	3995
+C961	Gemcitabine	46274163	Gemcitabine hydrochloride	RxNorm	null	236234
+C9874	Cyclophosphamide_Fluorouracil_Methotrexate	1310317	Cyclophosphamide	RxNorm	S	3002
+C9874	Cyclophosphamide_Fluorouracil_Methotrexate	955632	Fluorouracil	RxNorm	S	4492
+C9874	Cyclophosphamide_Fluorouracil_Methotrexate	19007332	Methotrexate 2.5 MG Oral Tablet	RxNorm	S	105585

@@ -1,7 +1,5 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
    <id value="neoplasm-core-molecular"/>
-   <sourceUri value="http://hl7.org/fhir/ValueSet/neoplasm-core"/>
-   <targetUri value="http://hl7.org/fhir/ValueSet/neoplasm-core-molecular"/>
    <url value="http://hl7.org/fhir/ConceptMap/neoplasm-core-molecular"/>
    <version value="ncit-neoplasm-core-2016-11"/>
    <name value="neoplasm-core-molecular"/>
@@ -13,6 +11,8 @@
    </contact>
    <date value="2016-12-08T22:26:56-06:00"/>
    <description value="This is an Neoplasm Core concept map for molecular relationships."/>
+   <sourceUri value="http://hl7.org/fhir/ValueSet/neoplasm-core"/>
+   <targetUri value="http://hl7.org/fhir/ValueSet/neoplasm-core-molecular"/>
    <group>
       <source value="http://ncit.nci.nih.gov"/>
       <sourceVersion value="ncit-neoplasm-core-2016-11"/>

@@ -1,0 +1,724 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+   <id value="breastcancer-drug-rxnorm-mappings"/>
+   <url value="http://hl7.org/fhir/ConceptMap/breastcancer-drug-rxnorm-mappings"/>
+   <version value="breastcancer-drug-core-2016-12"/>
+   <name value="breastcancer-drug-rxnorm-mappings"/>
+   <status value="active"/>
+   <experimental value="true"/>
+   <publisher value="Mayo Clinic Standards and Interoperability Program"/>
+   <contact>
+      <name value="MCSI team"/>
+   </contact>
+   <date value="2016-12-14T14:59:35-06:00"/>
+   <description value="This is a Breast Cancer Drug Core RxNorm concept map."/>
+   <sourceUri value="http://hl7.org/fhir/ValueSet/breastcancer-drug-core"/>
+   <targetUri value="http://hl7.org/fhir/ValueSet/breastcancer-drug-rxnorm--mappings"/>
+   <group>
+      <source value="http://ncit.nci.nih.gov"/>
+      <sourceVersion value="breastcancer-drug-core-2016-12"/>
+      <target value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+      <targetVersion value="breastcancer-drug-core-2016-12"/>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Exemestane"/>
+         </extension>
+         <code value="C1097"/>
+         <target>
+            <code value="310261"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="exemestane 25 MG Oral Tablet"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="310261"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Megestrol_Acetate"/>
+         </extension>
+         <code value="C1156"/>
+         <target>
+            <code value="860221"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Megestrol Acetate 40 MG Oral Tablet"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="860221"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Toremifene"/>
+         </extension>
+         <code value="C1256"/>
+         <target>
+            <code value="38409"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Toremifene"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="38409"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Doxorubicin_Hydrochloride"/>
+         </extension>
+         <code value="C1326"/>
+         <target>
+            <code value="3639"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Doxorubicin"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3639"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Pamidronate_Disodium"/>
+         </extension>
+         <code value="C1345"/>
+         <target>
+            <code value="1546406"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="pamidronic acid"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="1546406"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Fulvestrant"/>
+         </extension>
+         <code value="C1379"/>
+         <target>
+            <code value="282357"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="fulvestrant"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="282357"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Paclitaxel"/>
+         </extension>
+         <code value="C1411"/>
+         <target>
+            <code value="56946"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Paclitaxel"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="56946"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Goserelin_Acetate"/>
+         </extension>
+         <code value="C1417"/>
+         <target>
+            <code value="50610"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Goserelin"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="50610"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Docetaxel"/>
+         </extension>
+         <code value="C1526"/>
+         <target>
+            <code value="72962"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="docetaxel"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="72962"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Letrozole"/>
+         </extension>
+         <code value="C1527"/>
+         <target>
+            <code value="72965"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="letrozole"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="72965"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Anastrozole"/>
+         </extension>
+         <code value="C1607"/>
+         <target>
+            <code value="84857"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="anastrozole"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="84857"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Trastuzumab"/>
+         </extension>
+         <code value="C1647"/>
+         <target>
+            <code value="224905"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="trastuzumab"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="224905"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Raloxifene_Hydrochloride"/>
+         </extension>
+         <code value="C1762"/>
+         <target>
+            <code value="72143"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Raloxifene"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="72143"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Capecitabine"/>
+         </extension>
+         <code value="C1794"/>
+         <target>
+            <code value="194000"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="capecitabine"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="194000"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="E7389"/>
+         </extension>
+         <code value="C26644"/>
+         <target>
+            <code value="1045452"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="eribulin mesylate"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="1045452"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="ABI-007"/>
+         </extension>
+         <code value="C2688"/>
+         <target>
+            <code value="589511"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Abraxane"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="589511"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Ixabepilone"/>
+         </extension>
+         <code value="C37452"/>
+         <target>
+            <code value="337523"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="ixabepilone"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="337523"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Pertuzumab"/>
+         </extension>
+         <code value="C38692"/>
+         <target>
+            <code value="1298944"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="pertuzumab"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="1298944"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Cyclophosphamide"/>
+         </extension>
+         <code value="C405"/>
+         <target>
+            <code value="3002"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Cyclophosphamide"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3002"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Epirubicin"/>
+         </extension>
+         <code value="C474"/>
+         <target>
+            <code value="3995"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Epirubicin"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3995"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Everolimus"/>
+         </extension>
+         <code value="C48387"/>
+         <target>
+            <code value="141704"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="everolimus"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="141704"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="PD-0332991"/>
+         </extension>
+         <code value="C49176"/>
+         <target>
+            <code value="1601374"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="palbociclib"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="1601374"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Fluorouracil"/>
+         </extension>
+         <code value="C505"/>
+         <target>
+            <code value="1791700"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Fluorouracil Injection"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="1791700"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="AC_Regimen"/>
+         </extension>
+         <code value="C63415"/>
+         <target>
+            <code value="C63415"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Doxorubicin"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3639"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Cyclophosphamide"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3002"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="AC-T_Regimen"/>
+         </extension>
+         <code value="C63427"/>
+         <target>
+            <code value="C63427"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Doxorubicin"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3639"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Cyclophosphamide"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3002"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Paclitaxel"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="56946"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="TAC_Regimen"/>
+         </extension>
+         <code value="C63435"/>
+         <target>
+            <code value="C63435"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Cyclophosphamide"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3002"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="docetaxel"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="72962"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Doxorubicin"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3639"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Methotrexate"/>
+         </extension>
+         <code value="C642"/>
+         <target>
+            <code value="105585"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Methotrexate 2.5 MG Oral Tablet"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="105585"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Lapatinib_Ditosylate"/>
+         </extension>
+         <code value="C66878"/>
+         <target>
+            <code value="481474"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="lapatinib ditosylate"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="481474"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Trastuzumab-MCC-DM1_Conjugate"/>
+         </extension>
+         <code value="C82492"/>
+         <target>
+            <code value="1371041"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="ado-trastuzumab emtansine"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="1371041"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Tamoxifen"/>
+         </extension>
+         <code value="C855"/>
+         <target>
+            <code value="313195"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Tamoxifen 20 MG Oral Tablet"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="313195"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Thiotepa"/>
+         </extension>
+         <code value="C875"/>
+         <target>
+            <code value="10473"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Thiotepa"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="10473"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Vinblastine_Sulfate"/>
+         </extension>
+         <code value="C931"/>
+         <target>
+            <code value="11198"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Vinblastine Sulfate"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="11198"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Cyclophosphamide_Doxorubicin_Fluorouracil"/>
+         </extension>
+         <code value="C9533"/>
+         <target>
+            <code value="C9533"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Doxorubicin"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3639"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Cyclophosphamide"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3002"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Fluorouracil"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="4492"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Cyclophosphamide_Epirubicin_Fluorouracil"/>
+         </extension>
+         <code value="C9595"/>
+         <target>
+            <code value="C9595"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Fluorouracil"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="4492"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Cyclophosphamide"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3002"/>
+            </dependsOn>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Epirubicin"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="3995"/>
+            </dependsOn>
+         </target>
+      </element>
+      <element>
+         <extension url="http://ncit.nci.nih.gov/concept/display">
+            <valueString value="Gemcitabine"/>
+         </extension>
+         <code value="C961"/>
+         <target>
+            <code value="236234"/>
+            <equivalence value="equivalent"/>
+            <dependsOn>
+               <extension url="http://www.nlm.nih.gov/research/umls/rxnorm/concept/display">
+                  <valueString value="Gemcitabine hydrochloride"/>
+               </extension>
+               <property value="http://www.nlm.nih.gov/research/umls/rxnorm/concept"/>
+               <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+               <code value="236234"/>
+            </dependsOn>
+         </target>
+      </element>
+   </group>
+</ConceptMap>

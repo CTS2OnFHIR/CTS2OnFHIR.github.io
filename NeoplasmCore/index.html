@@ -5,7 +5,7 @@
   </head>
 
   <body>
-    <img src="images/fhir-logo-www.png" alt="logo fhir"/><h1>FHIR-based Representation of NCIt Neoplasm Core Terminology Files</h1>
+    <img src="images/fhir-logo-www.png" alt="logo fhir"/><h1>FHIR-based Representation of NCIt Neoplasm Core Terminology Files and Cancer Drugs</h1>
 
 
 <p>The NCIt Neoplasm Core value set provides a core reference set of 
@@ -48,18 +48,19 @@ cancer information resources.</p>
 <p>This third monthly release includes four components:</p>
     
 <ol>
-  <li><b>Value Set</b>: 1,358 concepts, available from the
+  <li><b>Value Set</b>: 
+
+  <p><b>The NCIt Neoplasm Core Value Set: </b>1,358 concepts, available from the
     <a href="https://nciterms.nci.nih.gov/ncitbrowser/ajax?action=create_src_vs_tree&amp;vsd_uri=http://evs.nci.nih.gov/valueset/C126659">NCI Term Browser</a>,
  LexEVS APIs, and the files on this FTP site.  An RDF/SPARQL endpoint is
  also available internally, and is being prepared for public use.  The 
-files here are available in these forms:
+files here are available in these forms: </p>
 
     <p></p><ul>
       <li><a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.xlsx">Neoplasm_Core.xlsx</a> is an Excel spreadsheet.</li>
       <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.xls">Neoplasm_Core.xls</a> is a larger, old-format Excel file.</li>
       <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.csv">Neoplasm_Core.csv</a> is a simple text comma-separated values (CSV) file.</li>
       <li> <a href="http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Neoplasm/Neoplasm_Core.txt">Neoplasm_Core.txt</a> is a simple tab-delimited text file.</li>
-      <li> <a href="https://raw.githubusercontent.com/CTS2OnFHIR/CTS2OnFHIR.github.io/master/NeoplasmCore/cancerdrugs/Breast_Cancer_Drug_Core.txt">Breast_Cancer_Drug_Core.txt</a> is a simple tab-delimited text file for drugs approved for breast cancer.</li>
     </ul><p></p>
     
 
@@ -96,6 +97,44 @@ cancerous potential.</td>
 	</tbody></table>
       </blockquote>
     <p></p>
+
+  <p><b>The NCIt Breast Cancer Drug Value Set: </b>36 concepts</p>
+   <p></p><ul>
+        <li> <a href="https://raw.githubusercontent.com/CTS2OnFHIR/CTS2OnFHIR.github.io/master/NeoplasmCore/cancerdrugs/Breast_Cancer_Drug_Core.txt">Breast_Cancer_Drug_Core.txt</a> is a simple tab-delimited text file for drugs approved for breast cancer.</li>
+    </ul><p></p>
+
+    <p>The files have column headers on the first row:
+
+      </p><blockquote>
+	<table cellspacing="1" cellpadding="3" border="1">
+	  <tbody><tr valign="top" align="left">
+	    <th>Column</th>
+	    <th>Content Description</th>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Code</td>
+	    <td>The NCIt concept code, a unique identifier assigned to each concept by EVS to permanently track a specific meaning.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Preferred Term</td>
+	    <td>The term chosen by EVS as most unambiguous and widely used in the biomedical community.</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Synonyms</td>
+	    <td>Additional term(s) chosen by NCI with meaning equivalent to the Preferred Term, separated by vertical bars ("|").</td>
+	  </tr>
+	  <tr valign="top" align="left">
+	    <td>Definition</td>
+	    <td>A text definition of the term created by EVS subject matter experts.</td>
+	  </tr>
+          <tr valign="top" align="left">
+	    <td>Drug Class</td>
+	    <td>A drug class indicating the Drugs approved for different cancer types, e.g., breast cancer</td>
+          </tr>
+	</tbody></table>
+      </blockquote>
+    <p></p>
+   
 
 <p><img src="images/fhir-logo-www.png" alt="logo fhir"/><b>FHIR-based Representation</b> using the <a href="http://hl7.org/fhir/2016Sep/valueset.html">FHIR Valueset Resource</a>:
 
